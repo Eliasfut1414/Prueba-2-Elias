@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/estilo.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+  />
+  <!--Icono-->
+  <link rel="shortcut icon" href="img/icono.png" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+        <div class="container">
+          <a href="index.html" class="navbar-brand"
+            ><img src="img/logo.JPG" alt="" style="height: 40px"
+          
+          /></a>
+          <a href="index.html" class="navbar-brand me-5 logo" style="color:#D1BE69; margin-left: -12px;">KING LION</a>
+          
+  
+          <!--Movil crea al collapse-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <!--Contenido del menu-->
+         
+          <div class="collapse navbar-collapse" id="navbar">
+  
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active">Inicio</a>
+              </li>
+              
+              
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  id="menu-categorias"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Leones</a
+                >
+  
+                <!--Menu desplegable-->
+                <div class="dropdown-menu" aria-labelledby="menu-categorias">
+                  <a href="index.html#Katanga" class="dropdown-item">1.León de Katanga</a>
+                  <a href="index.html#Congo" class="dropdown-item">2.León del Congo</a>
+                  <a href="index.html#Trans" class="dropdown-item">3.León Transvaal</a>
+                  <a href="index.html#Atlas" class="dropdown-item">4.León de Atlas</a>
+                  <a href="index.html#Nubia" class="dropdown-item">5.León de Nubia</a>
+                  <a href="index.html#Asiatico" class="dropdown-item">6.León asiático</a>
+                </div>
+              </li>
+  
+              <li class="nav-item">
+                <a href="galeria.html" class="nav-link active">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a href="contacto.html" class="nav-link active">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div id="container-fluid">
+    
+        <div class="row">
+          <div class="col-12 contacsp" style="background-color: #BBA91C;">
+            
+          </div>
+            <div class="col-xl-5 col-lg-5 col-12 col-sm-12  px-5 py-5 contac1">
+              <h1 class="text-center display-2">ESCRIBENOS</h1>
+              <br><br>
+              <b>Nombre Completo</b>
+              <div class="mb-3 mt-2">
+              <input type="text" class="form-control mb-2" placeholder="Nombre">
+              <input type="text" class="form-control" placeholder="Apellidos">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"> <b>Correo electrónico</b></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"> <b>Telefono</b></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="506+">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"><b>Mensaje</b> </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <br>
+              <button type="button" class="btn btn-warning btn-lg px-5">Enviar</button>
+              <br><br>
+              <h1 class=" mt-5 text-center">Contactenos</h1>
+              <a href="https://api.whatsapp.com/send?phone=50662279356&text=Hola.%20%C2%A1Deseo%20saber%20informaci%C3%B3n%20sobre%20los%20leones!"><button type="button" class="btn btn-success btn-lg mt-5 ms-5"><i class="bi bi-whatsapp" style="color: white; font-size: 20px;"></i> Whatsapp</button></a>
+            
+              <a href="tel:+62279356"><button type="button" class="btn btn-primary btn-lg mt-5 ms-5"><i class="bi bi-telephone-forward-fill" style="color: white;"></i> Llamar ahora</button></a>
+              <a href="https://t.me/Elias1506"><button type="button" class="btn btn-danger btn-lg mt-5 ms-5"><i class="bi bi-telegram" style="color: white;"></i> Telegram</button></a>
+            </div>
+            
+          <div class="col-12 col-sm-12 col-lg-7 col-xl-7 contac2">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="row pt-5 pb-5">
+      <div class="col-xl-12 px-5 text-center">
+        <img src="img/logo.JPG" alt="" style="width: 5%;"> <h2 class="mb-4 logo" style=" color: #D1BE69 ">LION KING</h2>
+        <h3 class="mt-4 mb-3">SIGUENOS:</h3>
+        <a href="https://outlook.live.com/owa/"><span style="margin-left: 0px;"><i class="bi bi-envelope-at" style="color: #0073C4; font-size: 40px;"></i></span></a>
+        <a href="https://www.facebook.com/"><span><i class="bi bi-facebook" style="color: blue; font-size: 40px;"></i></span></a>
+        <a href="https://www.instagram.com/"><span><i class="bi bi-instagram" style="color: #E9315A; font-size: 40px;"></i></span></a>
+        <a href="https://web.whatsapp.com/"><span><i class="bi bi-whatsapp" style="color: green; font-size: 40px;"></i></span></a>
+        <a href="https://twitter.com/"><span><i class="bi bi-twitter" style="color: #1FC1F6; font-size: 40px;"></i></span></a>
+        
+        
+        <p class="mt-4">Diseñado por: Elías León Arias</p>
+        <p>Con el uso de Bootstrap<p>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <!--Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

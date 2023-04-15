@@ -1,0 +1,119 @@
+
+nav{
+    color:white;
+    text-align: center;
+}
+.fondo1{
+    width: 100%; height: 100vh;
+	background-image: url(../img/portada.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	
+}
+.boton1{
+    margin-top: 220px;
+
+  
+}
+.part1{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    
+
+}
+.imag1{
+background-color: black;
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.espacio{
+    background-color: black;
+    height: 50px;
+}
+.part2{
+    
+	background-image: url(../img/fondo1.jpg);
+	background-attachment: fixed; /*efecto Parallax*/
+    background-size: 100% 100%;
+    height: 100%;
+   
+   
+}
+.logo{
+    font-family: 'New Rocker', cursive;
+}
+.card:hover{
+    
+    transform: scale(1.2);
+
+}
+.part3{
+    background-attachment: fixed; /*efecto Parallax*/
+    background-image: url(../img/fondo2.jpg);
+    background-size: 100% 100%;
+    height: 100%;
+    
+}
+.infokatanga{
+    
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.881);
+}
+span{
+    margin-left: 50px;
+}
+footer{
+    background-color: black;
+    color: white;
+    
+}
+
+.contac{
+    text-align: center;
+    background-color: white;
+
+}
+.contac2{
+    background-image: url(../img/portada\ 3.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.contac1{
+    background-color: black;
+    color: white;
+    
+}
+.contacsp{
+    height: 25px;
+}
+.portgale{
+     height: 100vh;
+	background-image: url(../img/portgale.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.fondgale1{
+    background-image: url(../img/fondogale1.jpg);
+	background-attachment: fixed; /*efecto Parallax*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.galefond2{
+    background-image: url(../img/fondogale2.avif);
+	background-attachment: fixed; /*efecto Parallax*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+#card1:hover{
+    transform: none;
+}
